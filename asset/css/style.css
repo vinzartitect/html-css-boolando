@@ -5,10 +5,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+    position: relative;
+    left: 100px;
+}
+
 .product {
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
+    margin-bottom: 100px;
+}
+
+img {
+    height: 750px;
 }
 
 .heart {
@@ -33,6 +43,16 @@
     position: absolute;
     bottom: 5%;
     left: 10%;
+    color: white;
+    font-weight: 800;
+    background-color: #00875a;
+    padding: 5px 10px;
+}
+
+.ecolog-2 {
+    position: absolute;
+    bottom: 5%;
+    left: 0;
     color: white;
     font-weight: 800;
     background-color: #00875a;
