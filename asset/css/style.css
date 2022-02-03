@@ -6,19 +6,20 @@
 }
 
 .container {
-    position: relative;
-    left: 100px;
+    width: 1600px;
+    margin: auto auto ;
 }
 
 .product {
     display: inline-block;
     /* border: 2px solid red; */
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 img {
     height: 750px;
+    display: block;
 }
 
 .heart {
@@ -42,7 +43,7 @@ img {
 .ecolog {
     position: absolute;
     bottom: 5%;
-    left: 10%;
+    left: 13%;
     color: white;
     font-weight: 800;
     background-color: #00875a;
